@@ -3,11 +3,13 @@ This repository contains a Statistical Inference and Regression Modeling project
 The goal of this project is to investigate the relationship between customer characteristics and Total Spend, identify the most influential predictors of customer expenditure, and build a reliable regression model that provides actionable insights for e-commerce decision-making.
 
 📂 Repository Contents
+
 ecommerce_analysis.ipynb: The main Jupyter Notebook containing all Python code, data cleansing steps, EDA visualizations, hypothesis testing, regression modeling, and diagnostic checks.
 E-commerce Customer Behavior - Sheet1.csv: The raw dataset containing 350 customer records with demographic and transactional features (Age, Gender, City, Membership Type, Total Spend, Items Purchased, Average Rating, Discount Applied, Days Since Last Purchase, Satisfaction Level).
 README.md: Project documentation and setup instructions.
 
 🚀 How to Open and Run the Project
+
 This project is designed to be fully reproducible and runs seamlessly in the cloud using Google Colab. You do not need to install Python, download any files, or configure a local environment.
 Step 1: Open the Notebook by clicking the Colab badge below to launch it directly in your browser.
 Step 2: Run the Code
@@ -17,6 +19,7 @@ Zero Setup Required: The notebook is programmed to automatically fetch the datas
 
 📊 What the Notebook Does
 The .ipynb file is structured as an end-to-end statistical modeling report, walking through the following phases:
+
 1. Data Cleansing & Preprocessing
 Raw e-commerce data requires careful encoding before regression. The notebook demonstrates data preparation by:
 Dropping non-predictive identifiers (Customer ID) and removing rows with missing values, yielding a working dataset of 350 observations.
